@@ -60,3 +60,6 @@ mono_crash.*
 # Addressables
 /ServerData
 /[Aa]ssets/StreamingAssets/aa*
+
+# User settings 
+**/[Uu]ser[Ss]ettings/
