@@ -26,9 +26,10 @@ public class ShipShoot : MonoBehaviour
         HandleShooting();
     }
 
+    // Get input and shoot if possible
     private void HandleShooting()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Mouse0))
         {
             if (Time.time >= lastShootTime + fireRate)
             {
