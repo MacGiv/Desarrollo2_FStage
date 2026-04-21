@@ -1,5 +1,7 @@
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
+[RequireComponent (typeof(Rigidbody))]
 public class Projectile : MonoBehaviour
 {
     [Header("Movement")]
@@ -9,8 +11,16 @@ public class Projectile : MonoBehaviour
     [Header("Lifetime")]
     [SerializeField] private float lifetime = 5f;
 
+    [Header("VFX")]
+    [SerializeField] private GameObject hitVFX;
+
+    [Header("Audio")]
+    [SerializeField] private AudioClip hitSound;
+
     private void Start()
     {
+        Rigidbody rb = GetComponent<Rigidbody>();
+        rb.useGravity = false;
         Destroy(gameObject, lifetime);
     }
 
@@ -26,6 +36,18 @@ public class Projectile : MonoBehaviour
         if (damageable != null)
         {
             damageable.TakeDamage();
+        }
+
+        // VFX
+        if (hitVFX != null)
+        {
+            Instantiate(hitVFX, transform.position, Quaternion.identity);
+        }
+
+        // Audio
+        if (hitSound != null)
+        {
+            AudioSource.PlayClipAtPoint(hitSound, transform.position);
         }
 
         Destroy(gameObject);

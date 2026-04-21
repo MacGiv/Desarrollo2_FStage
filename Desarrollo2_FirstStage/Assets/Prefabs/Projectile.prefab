@@ -54,7 +54,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.5
+  m_Radius: 0.75
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6697336235445850157
 MonoBehaviour:
@@ -70,6 +70,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 150
   lifetime: 4
+  hitVFX: {fileID: 1687497679442396035, guid: 04e175d79d2d1cf489ddfd885762c9be, type: 3}
+  hitSound: {fileID: 8300000, guid: 8e409875ad00ba4489e2ac45c86ec680, type: 3}
 --- !u!54 &-4759904304686283392
 Rigidbody:
   m_ObjectHideFlags: 0
