@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3638634538250910409}
   - component: {fileID: 4096386733088023299}
   - component: {fileID: 8274893117386887187}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 924387557837035582}
   - component: {fileID: 5413389813244330434}
   - component: {fileID: 6904047971353166301}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Planet_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
