@@ -1,22 +1,17 @@
-🚀 Desarrollo de Videojuegos II - TP1
+🚀 Práctica Profesional II: Desarrollo de videojuegos II - TP1
 🛰️ Space Shooter 3D
 
-Proyecto desarrollado en Unity 6 como parte de la materia Desarrollo de Videojuegos II.
-
-🚀 Movimiento de la nave
-
-Movimiento constante hacia adelante
-Control total en los 3 ejes:
-Pitch (W/S)
-Yaw (A/D)
-Roll (Q/E)
+Proyecto desarrollado en Unity 6 como parte de la materia Práctica Profesional II: Desarrollo de videojuegos II.
 
 ⚙️ Controles
-Acción	Tecla
-Pitch	    W / S
-Yaw	        A / D
-Roll	    Q / E
-Disparar	Click Izdo
+Movimiento Horizontal:
+W / S
+Movimiento Vertical:
+A / D
+Roll:
+Q / E
+Disparar:
+Click Izdo
 
-
+Image Campus
 Tecnicatura Superior en Desarrollo de Videojuegos
