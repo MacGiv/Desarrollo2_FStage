@@ -316,13 +316,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 117166947574186884, guid: e7aead1a38b91a245946be834a396251, type: 3}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 974906093558605691, guid: e7aead1a38b91a245946be834a396251, type: 3}
       propertyPath: m_Name
       value: Planets_Aligned
       objectReference: {fileID: 0}
     - target: {fileID: 974906093558605691, guid: e7aead1a38b91a245946be834a396251, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4434968509440331211, guid: e7aead1a38b91a245946be834a396251, type: 3}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4866286742269318230, guid: e7aead1a38b91a245946be834a396251, type: 3}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5115977344195979275, guid: e7aead1a38b91a245946be834a396251, type: 3}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668205305557514667, guid: e7aead1a38b91a245946be834a396251, type: 3}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8913818901799049198, guid: e7aead1a38b91a245946be834a396251, type: 3}
+      propertyPath: speed
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -343,6 +367,22 @@ PrefabInstance:
     - target: {fileID: 257734317560877394, guid: 2af695bea9734d4419367676091b968b, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5101137972631241883, guid: 2af695bea9734d4419367676091b968b, type: 3}
+      propertyPath: boostMultiplier
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5948059502300210943, guid: 2af695bea9734d4419367676091b968b, type: 3}
+      propertyPath: forwardSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5948059502300210943, guid: 2af695bea9734d4419367676091b968b, type: 3}
+      propertyPath: physicsTorque
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5948059502300210943, guid: 2af695bea9734d4419367676091b968b, type: 3}
+      propertyPath: rotationSpeed
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 8786953347161987333, guid: 2af695bea9734d4419367676091b968b, type: 3}
       propertyPath: m_LocalPosition.x
